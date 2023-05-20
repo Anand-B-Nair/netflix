@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    background: #00081D;
+}
+#header{
+    width: 100%;
+    height: 140vh;
+    background-image: url(Background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.bg{
+    width: 100%;
+    height: 140vh;
+    background-image: linear-gradient(90deg,rgba(0,8,29,0.9),rgba(0,8,29,0.2));
+}
+.bg2{
+    width: 100%;
+    height: 140vh;
+    background-image: linear-gradient(rgba(0,8,29,0.2),rgba(0,8,29,1));
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+svg{
+    fill: #E50914;
+    width: 150px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+.right{
+    margin-top: 20px;
+    margin-right: 45px;
+}
+select{
+    background-color: rgba(0,0,0,0.5);
+    padding: 6px 30px;
+    border-radius: 5px;
+}
+button{
+    background-color: #E50914;
+    border: 0;
+    padding: 8px 16px;
+    margin-left: 8px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #af1b23;
+    cursor: pointer;
+}
+.header-text{
+    margin-top: 120px;
+    margin-left: 140px;
+}
+.header-text h1{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 70px;
+}
+.header-text h4{
+    font-size: 20px;
+    margin-top: 20px; 
+}
+.header-text h4 strong{
+    font-weight: 40px;
+}
+input{
+    margin-top: 10px;
+    width: 350px;
+    border: 30px;
+    padding: 16px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    color: #dee5e7;
+    font-size: 17px;
+}
+.header-text button{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 8px 24px;
+    font-size: 25px;
+}
+.container{
+    margin-top: 80px;
+}
+.box{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-top: 150px;
+}
+.box-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    margin: 8px;
+    width: 600px;
+    height: 480px;
+    border-radius: 10px;
+    background-image: linear-gradient(135deg ,rgb(9 20 60), rgb(64 14 32));
+    position: relative;
+}
+.box2{
+    margin: 8px;
+    width: 600px;
+    height: 480px;
+    border-radius: 10px;
+    background-image: linear-gradient(135deg ,rgb(9 20 60), rgb(64 14 32));
+    position: relative;
+}
+.box3{
+    margin: 8px;
+    width: 600px;
+    height: 480px;
+    border-radius: 10px;
+    background-image: linear-gradient(135deg ,rgb(9 20 60), rgb(64 14 32));
+    position: relative;
+}
+.box4{
+    margin: 8px;
+    width: 600px;
+    height: 480px;
+    border-radius: 10px;
+    background-image: linear-gradient(135deg ,rgb(9 20 60), rgb(64 14 32));
+    position: relative;
+}
+.box1 img{
+    width: 380px;
+    height: 280px;
+    padding: 50px 108px;
+    position: absolute;
+}
+.box1 h2{
+    padding: 330px 0px 0px 100px;
+}
+.box1 h4{
+    padding: 15px 20px 0px 100px;
+}
+.box2 img{
+    width: 380px;
+    height: 280px;
+    padding: 50px 108px;
+    position: absolute;
+}
+.box2 h2{
+    padding: 330px 0px 0px 100px;
+}
+.box2 h4{
+    padding: 15px 20px 0px 100px;
+}
+.box3 img{
+    width: 380px;
+    height: 280px;
+    padding: 50px 108px;
+    position: absolute;
+}
+.box3 h2{
+    padding: 330px 0px 0px 100px;
+}
+.box3 h4{
+    padding: 15px 20px 0px 100px;
+}
+.box4 img{
+    width: 380px;
+    height: 280px;
+    padding: 50px 108px;
+    position: absolute;
+}
+.box4 h2{
+    padding: 330px 0px 0px 100px;
+}
+.box4 h4{
+    padding: 15px 20px 0px 100px;
+}
+/*-----faq-----*/
+.faq{
+    margin-left: 160px;
+    margin-top: 90px;
+}
+.faq h1{
+    padding: 10px;
+}
+.accordion{
+    margin: 60px, auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    width: 940px;
+    display: flex;
+    margin-bottom: 2px;
+    font-size: 23px;
+    font-weight: 800;
+    background: #132245;
+    align-items: center;
+    padding:30px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.accordion li label:hover{
+    background: #223a74;
+}
+label::after{
+    content: '+';
+    font-size: 45px;
+    position: absolute;
+    right: 20px;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    width: 960px;
+    font-size: 23px;
+    font-weight: 800;
+    background: #132245;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s;
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(45deg);
+}
+.text2{
+    margin: 30px;
+    font-size: 21px;
+    font-weight: 590;
+    margin-left: 160px;
+}
+.text2 button{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 8px 24px;
+    font-size: 25px;
+}
+.text3{
+    color: #dee5e7;
+    margin-left: 160px;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+.col{
+    
+    display: flex;
+    color: #dee5e7;
+    margin-left: 160px;
+}
+.col1{
+    font-size: 14px;
+}
+.col2{
+    font-size: 14px;
+    margin-left: 150px;
+}
+.col3{
+    font-size: 14px;
+    margin-left: 150px;
+}
+.col4{
+    font-size: 14px;
+    margin-left: 150px;
+}
+.down-btn{
+    margin-top: 20px;
+    margin-left: 160px;
+}
+.text4{
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 160px;
+}
+.q1:hover{
+    background-color: #223a74;
+}
+.q2:hover{
+    background-color: #223a74;
+}
+.q3:hover{
+    background-color: #223a74;
+}
+.q4:hover{
+    background-color: #223a74;
+}
+.q5:hover{
+    background-color: #223a74;
+}
+.q6:hover{
+    background-color: #223a74;
+}
+.ans{
+    display: none;
+}
+.ans.active-tab{
+    display: block;
+}
+
+@media only screen and (max-width: 600px){
+*{
+    margin: 0;
+}
+#header{
+width: 150vh;
+}
+.box{
+    align-items: center;
+}
+.box-top{
+    display: block;
+    margin-left: 50px;
+}
+.box-down{
+    display: block;
+    margin-left: 50px;
+}
+.header-text{
+    display: block;
+}
+.header-text{
+    margin-top: 250px;
+    margin-left: 50px;
+}
+.accordion li label{
+    width: auto;
+}
+.accordion .content{
+    width: auto;
+}
+.faq{
+    margin-left: 20px;
+}
+.text2, .text3, .text4{
+    margin-left: 20px; 
+}
+.col{
+    display: block;
+}
+.col, .col1, .col2, .col3, .col4{
+    margin-left: 10px;
+}
+.down-btn{
+    margin-left: 20px;
+}
+input{
+    margin-right: 1000px;
+}
+}

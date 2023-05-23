@@ -329,18 +329,18 @@ input[type="radio"]{
     margin: 0;
 }
 #header{
-width: 150vh;
+width: 280vw;
 }
 .box{
     align-items: center;
 }
 .box-top{
     display: block;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 .box-down{
     display: block;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 .header-text{
     display: block;
